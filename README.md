@@ -217,22 +217,4 @@ FileSorter-Automated-File-Organization-Duplicate-Detection-Tool/
 - **shutil** — copying and moving files
 - **hashlib** — SHA-256 hashing
 
-## Complexity
-
-Let **N** be the number of files and **S** be the total amount of file data processed.
-
-### Time Complexity
-
-```text
-O(S)
-```
-
-Every file needs to be read to calculate its SHA-256 hash.
-
-### Space Complexity
-
-```text
-O(N)
-```
-
 The program stores the hash of each processed file in a dictionary for duplicate detection.
